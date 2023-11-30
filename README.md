@@ -1,2 +1,4 @@
 # Computer-Architecture-Project
-Verilog Description of RISC-V single-cycle,multi-cycle and pipeline implementation.
+- Verilog description of Inteligent Rat problem.
+- Verilog description of RISC-V single-cycle,multi-cycle and pipeline implementation.
+- Projects for computer architecture course ar University of Tehran. 
