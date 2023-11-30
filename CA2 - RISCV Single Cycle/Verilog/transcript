@@ -1,0 +1,53 @@
+vsim -gui work.TestSingleCycle
+# vsim -gui work.TestSingleCycle 
+# Start time: 13:37:53 on Jun 03,2023
+# Loading work.TestSingleCycle
+# ** Error: (vsim-3033) Instantiation of 'RiscvSingleCyle' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TestSingleCycle File: D:/UT/term 4/CA/CAs/CA2_810100119_810100173/TestSingleCycle.v Line: 3
+#         Searched libraries:
+#             D:/UT/term 4/CA/CAs/CA2_810100119_810100173/work
+# Error loading design
+# End time: 13:37:53 on Jun 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of RegisterFile.v was successful.
+# Compile of InstMemory.v was successful.
+# Compile of DataMem.v was successful.
+# Compile of Mux2to1.v was successful.
+# Compile of Mux3to1.v was successful.
+# Compile of ImmExtend.v was successful.
+# Compile of Register.v was successful.
+# Compile of Adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Mux4to1.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of RiscvSingleCyle.v was successful.
+# Compile of TestSingleCycle.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.TestSingleCycle
+# vsim -gui work.TestSingleCycle 
+# Start time: 13:38:23 on Jun 03,2023
+# Loading work.TestSingleCycle
+# Loading work.RiscvSingleCyle
+# Loading work.DataPath
+# Loading work.Mux3to1
+# Loading work.Register
+# Loading work.InstMemory
+# Loading work.Adder
+# Loading work.ImmExtend
+# Loading work.RegisterFile
+# Loading work.Mux2to1
+# Loading work.ALU
+# Loading work.DataMem
+# Loading work.Mux4to1
+# Loading work.Controller
+add wave -position end sim:/TestSingleCycle/*
+add wave -position end sim:/TestSingleCycle/RVSC/DP/RegisterFile/*
+add wave -position insertpoint sim:/TestSingleCycle/RVSC/DP/RegisterFile/mem
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CAs/CA2_810100119_810100173/TestSingleCycle.v(7)
+#    Time: 5 ns  Iteration: 0  Instance: /TestSingleCycle
+# Break in Module TestSingleCycle at D:/UT/term 4/CA/CAs/CA2_810100119_810100173/TestSingleCycle.v line 7
+quit -sim
+# End time: 14:43:54 on Jun 03,2023, Elapsed time: 1:05:31
+# Errors: 0, Warnings: 2
